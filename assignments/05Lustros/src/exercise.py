@@ -1,9 +1,9 @@
 def main():
     #escribe tu código abajo de esta línea
-    n = int(input("Dame el año de nacimiento: "))
-    a = int(input("Dame el año actual: "))
-    l = (a-n)/5
-    print("Los lustros que has vivido son:",l)
+    AñodeNacimiento = int(input("Dame el año de nacimiento: "))
+    AñoActual = int(input("Dame el año actual: "))
+    Lustros = int(AñoActual-AñodeNacimiento)/5
+    print("Los lustros que has vivido son:",Lustros)
 
 
 
